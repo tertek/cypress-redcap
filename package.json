@@ -2,7 +2,11 @@
   "name": "cypress-redcap",
   "version": "0.0.1",
   "description": "A Cypress plugin for REDCap.",
-  "main": "index.js",
+  "main": "dist/cypress-redcap.common.js",
+  "module": "dist/cypress-redcap.esm.js",
+  "unpkg": "dist/cypress-redcap.js",
+  "jsdelivr": "dist/cypress-redcap.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
