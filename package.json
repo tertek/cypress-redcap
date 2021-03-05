@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tertek/cypress-redcap/issues"
   },
-  "homepage": "https://github.com/tertek/cypress-redcap#readme"
+  "homepage": "https://github.com/tertek/cypress-redcap#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
